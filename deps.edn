@@ -1,0 +1,12 @@
+{:paths ["src" "resources" "classes"]
+ :deps  {org.clojure/clojure       {:mvn/version "1.11.3"}
+
+         com.github.clj-easy/graal-build-time {:mvn/version "1.0.5"}
+
+         ;;Plantuml for generating diagram
+         net.sourceforge.plantuml/plantuml-mit {:mvn/version "1.2024.5"}
+
+         defsquare/staticly {:git/url "https://github.com/defsquare/staticly" :sha "1b44d0f64d7600a2ac7d3749bf8d0138f5f7a79d"}
+
+         }
+ }
